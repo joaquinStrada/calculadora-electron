@@ -1,0 +1,16 @@
+{
+  "name": "calculadora-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.3.0",
+    "electron-reload": "^1.5.0"
+  }
+}

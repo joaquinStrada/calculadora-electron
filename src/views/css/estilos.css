@@ -1,0 +1,75 @@
+/*-----------------------------------*/
+/* estilos generales */
+/*-----------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+body {
+    background: #ccc;
+    color: #000;
+}
+/*-----------------------------------*/
+/* estilos de la caculadora */
+/*-----------------------------------*/
+.calculadora {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 10px;
+    margin: 40px auto;
+}
+.calculadora h1 {
+    display: block;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------*/
+/* estilos de la pantalla */
+/*-----------------------------------*/
+.calculadora .row input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: end;
+    margin-bottom: 10px;
+    outline: none;
+}
+/*-----------------------------------*/
+/* estilos de las rows */
+/*-----------------------------------*/
+.calculadora .row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+/*-----------------------------------*/
+/* estilos de los botones */
+/*-----------------------------------*/
+.calculadora .row button {
+    display: inline-block;
+    width: 24%;
+    background: #0074D9;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: all .3S ease;
+    cursor: pointer;
+    outline: none;
+}
+.calculadora .row button:hover {
+    background: #ccc;
+}
+.calculadora .row button:active {
+    transform: scale(.95);
+}
